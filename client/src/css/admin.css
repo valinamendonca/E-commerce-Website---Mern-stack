@@ -1,0 +1,47 @@
+.main {
+        flex-grow: 1; /* Allow the main content to grow and take up remaining space */
+        padding: 20px;
+}
+.admin-container {
+        display: flex; /* Use flexbox for the container */
+        flex-direction: row;
+        height: 100vh;
+}
+.navbar{
+        width: 230px;
+        border:1px dotted black;
+        border-left: 0;
+        background-color: white;
+        height: 100vh;
+}
+
+.head{
+        height: 70px;
+        border-bottom:1px solid white;
+}
+.status{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgrey;
+        border-radius: 20px;
+        padding: 20px;
+}
+.totalEmp, .totalProj, .complete, .ongoing{
+        height:150px;
+        flex: 1;
+        margin:10px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: black;
+        padding:10px;
+        background-color: rgb(114,230,255);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}   
+.bold{
+        font-weight: 100;
+}
+
+i.stat-icon{
+        font-size: 100px;
+        float: left;
+}

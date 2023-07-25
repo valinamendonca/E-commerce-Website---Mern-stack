@@ -1,0 +1,115 @@
+
+h1{
+	
+	text-align: center;
+	font-family: "Times New Roman";
+	word-spacing: 1em;
+	letter-spacing: 0.2em;
+	
+}
+
+.meh{
+	padding-right: 30px;
+}
+
+.box-1{
+	border: 5px solid navy;
+	text-align: right;
+}
+
+.box-2{
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+.box-3{
+	
+	color: navy;
+	padding: 20px;
+	background-color: rgb(114, 230, 255);
+	border: 5px solid navy;
+	height: 100%;
+	
+}
+
+table{
+	width: 100%;
+}
+
+ul.all{
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	list-style-type: none;
+	background-color: lightblue;
+}
+
+li.most{
+	float: left;
+}
+
+li.all a{
+	display: block;
+	color: navy;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+li.all a:hover{
+	background-color: lightskyblue;
+}
+
+li.all a:active{
+	background-color: lightseagreen;
+}
+footer{
+	text-align: center;
+}
+
+li{
+	padding-top: 4px;
+}
+
+.form{
+	width: 400px;
+	margin-left: 35%;
+	background-color: rgb(114, 230, 255);
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+.login-button{
+	background-color: lightblue;
+	padding: 10px;
+}
+
+.data{
+	border: 1px solid black;
+	padding: 5px;
+}
+.data+th{
+	background-color: rgb(114,230,255);
+}
+#logout{
+        right:0;
+        position: absolute;
+        background-color: lightblue;
+        border: none;
+        height: 10px;
+        padding:20px;
+        font-size: 18px;
+        cursor: pointer;
+        color: black;
+}
+
+.data td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+.user td,.user th{
+	padding:10px;
+}
